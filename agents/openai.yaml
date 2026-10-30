@@ -1,0 +1,14 @@
+interface:
+  display_name: Документальное исследование родословной
+  short_description: Архивный поиск, проверка родства и сохранение результатов
+  default_prompt: 'Используй $research-genealogy: восстанови текущее состояние исследования
+    по файлам и продолжи наиболее перспективный документальный поиск.'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
